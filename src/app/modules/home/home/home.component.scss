@@ -39,12 +39,13 @@ mat-toolbar {
 .home-last-name{
   font-size: 100px;
   font-family: RobotoCondensed-Bold;
-  line-height: 0.8;
+  line-height: 1.2;
 }
 
 .home-profession{
   font-size: 17px;
   font-family: RobotoCondensed-Bold;
+  line-height: 1;
 }
 
 /*:::::About Me::::*/
@@ -79,10 +80,28 @@ mat-toolbar {
   margin-right: 32px;
 }
 
+.btn{
+  color: var(--color01);
+  background-color: transparent;
+  width: 120px;
+  margin-top: 16px;
+  margin-right: 16px;
+  border: 1px;
+  border-style: solid;
+  border-color: var(--color01);
+  font-family: RobotoCondensed-Regular;
+}
+.btn:hover {
+  color: var(--color02);
+  background-color: var(--color01);
+}
+
+
 /*:::::Stack::::*/
 #stack {
-  height: 768px;
-  background-color: var(--color02);
+  height: auto;
+  min-height: 280px;
+  background-color: var(--color04);
 }
 .stack-div{
   margin-left: 16px;
@@ -118,7 +137,8 @@ mat-toolbar {
 
 /*:::::Portfolio::::*/
 #portfolio {
-  height: 768px;
+  height: auto;
+  min-height: 400px;
   background-color: var(--color02);
 
 }
@@ -144,6 +164,7 @@ mat-toolbar {
 
 .portfolio-project{
   margin-top: 16px;
+  margin-left: 16px;
   text-align: center;
   color: var(--color01);
 }
@@ -155,10 +176,16 @@ mat-toolbar {
 
 /*:::::Contact Me::::*/
 #contact {
-  height: 768px;
-  background-color: var(--color02);
-
+  height: auto;
+  min-height: 400px;
+  background-image: url(/assets/images/call_background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #000000;
 }
+
 .contact-div{
   margin-left: 16px;
   margin-top: 16px;
@@ -178,14 +205,34 @@ mat-toolbar {
   line-height: 1.2;
   font-weight: 500;
 }
-
-.contact-project{
+.contact-icon{
+  display: flex;
+  direction: row;
+  margin-left: 42px;
   margin-top: 16px;
-  text-align: center;
+  margin-bottom: 16px;
   color: var(--color01);
 }
 
-.contact-paragraphy{
-  font-size: 16px;
-  color: var(--color03);
+.contact-text {
+  font-size: 32px;
+  font-weight: 200;
+}
+
+/*Footer*/
+#footer {
+  display: flex;
+  direction: row;
+  height: auto;
+  min-height: 30px;
+  background-color: var(--color02);
+  justify-content: space-between;
+  color: var(--color01);
+}
+
+.footer-text {
+  margin-top: 8px;
+  margin-left: 16px;
+  margin-right: 16px;
+  font-size: 12px;
 }
