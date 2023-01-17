@@ -1,0 +1,93 @@
+/*:::::Default::::*/
+*         { margin: 0px;}
+
+.regular  { font-family: RobotoCondensed-Regular; }
+.bold     { font-family: RobotoCondensed-Bold; }
+
+/*:::::Home::::*/
+#home {
+  height: 768px;
+  background-image: url(/assets/images/home_background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #000000;
+}
+
+mat-toolbar {
+  font-family: RobotoCondensed-Regular;
+  justify-content: space-between;
+  color: var(--color01);
+  background-color: transparent;
+}
+
+.home-div{
+  height: 100%;
+  margin-left: 16px;
+  margin-top: 300px;
+  color: #FFFFFF
+}
+
+.home-name{
+  font-size: 80px;
+  font-family: RobotoCondensed-Regular;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.home-last-name{
+  font-size: 100px;
+  font-family: RobotoCondensed-Bold;
+  line-height: 0.8;
+}
+
+.home-profession{
+  font-size: 17px;
+  font-family: RobotoCondensed-Bold;
+}
+
+/*:::::About Me::::*/
+#about-me {
+  height: 768px;
+  background-color: var(--color02);
+}
+
+.about-me-div{
+  height: 100%;
+  margin-left: 16px;
+  margin-top: 16px;
+  color: var(--color01);
+}
+
+.about-me-title{
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.about-me-name{
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.about-me-paragraphy{
+  text-align: justify;
+  font-size: 16px;
+  color: var(--color03);
+  margin-right: 32px;
+}
+
+/*:::::Stack::::*/
+#stack {
+  height: 768px;
+  background-color: var(--color02);
+}
+.stack-div{
+  text-align: center;
+}
+.stack-paragraphy{
+  font-size: 16px;
+  color: var(--color03);
+}

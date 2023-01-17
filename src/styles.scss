@@ -1,12 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
 
+* {
+  box-sizing: border-box;
+
+}
+
+@font-face {
+  font-family: RobotoCondensed-Regular;
+  src: url("../src/assets/fonts/RobotoCondensed-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: RobotoCondensed-Bold;
+  src: url("../src/assets/fonts/RobotoCondensed-Bold.ttf") format("truetype");
+}
+
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 :root{
   --color01:  #FFFFFF;
   --color02:  #000000;
-  --color03:  #3F51B5;
+  --color03:  #D1D1D1;
   --color04:  #009CB2;
   --color05:  #DC3545;
   --color06:  #333333;
@@ -21,3 +35,58 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   background-color: var(--color05);
   color: var(--color01);
 }
+
+
+
+.header { background-color: #3F51B5; }
+
+.div1 { background-color: #009CB2; }
+
+.div2 { background-color: #343A40; }
+
+.div3 { background-color: #AB38EF; }
+
+.footer { background-color: #DC3545; }
+
+/*Responsive*/
+[class*="col-"] {
+  float: left;
+}
+
+/* Mobile: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* Tablets: */
+  .col-t-1 {width: 8.33%;}
+  .col-t-2 {width: 16.66%;}
+  .col-t-3 {width: 25%;}
+  .col-t-4 {width: 33.33%;}
+  .col-t-5 {width: 41.66%;}
+  .col-t-6 {width: 50%;}
+  .col-t-7 {width: 58.33%;}
+  .col-t-8 {width: 66.66%;}
+  .col-t-9 {width: 75%;}
+  .col-t-10 {width: 83.33%;}
+  .col-t-11 {width: 91.66%;}
+  .col-t-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 1024px) {
+  /* Desktop: */
+  .col-d-1 {width: 8.33%;}
+  .col-d-2 {width: 16.66%;}
+  .col-d-3 {width: 25%;}
+  .col-d-4 {width: 33.33%;}
+  .col-d-5 {width: 41.66%;}
+  .col-d-6 {width: 50%;}
+  .col-d-7 {width: 58.33%;}
+  .col-d-8 {width: 66.66%;}
+  .col-d-9 {width: 75%;}
+  .col-d-10 {width: 83.33%;}
+  .col-d-11 {width: 91.66%;}
+  .col-d-12 {width: 100%;}
+}
+
