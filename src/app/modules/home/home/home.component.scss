@@ -87,6 +87,13 @@ mat-toolbar {
 .stack-div{
   margin-left: 16px;
   margin-top: 16px;
+  text-align: left;
+  color: var(--color01);
+}
+
+.stack-software{
+  margin-left: 16px;
+  margin-top: 16px;
   text-align: center;
   color: var(--color01);
 }
@@ -98,7 +105,87 @@ mat-toolbar {
   font-weight: 500;
 }
 
+.stack-name{
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
 .stack-paragraphy{
+  font-size: 16px;
+  color: var(--color03);
+}
+
+/*:::::Portfolio::::*/
+#portfolio {
+  height: 768px;
+  background-color: var(--color02);
+
+}
+.portfolio-div{
+  margin-left: 16px;
+  margin-top: 16px;
+  text-align: left;
+  color: var(--color01);
+}
+
+.portfolio-title{
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.portfolio-name{
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.portfolio-project{
+  margin-top: 16px;
+  text-align: center;
+  color: var(--color01);
+}
+
+.portfolio-paragraphy{
+  font-size: 16px;
+  color: var(--color03);
+}
+
+/*:::::Contact Me::::*/
+#contact {
+  height: 768px;
+  background-color: var(--color02);
+
+}
+.contact-div{
+  margin-left: 16px;
+  margin-top: 16px;
+  text-align: left;
+  color: var(--color01);
+}
+
+.contact-title{
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.contact-name{
+  font-size: 50px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.contact-project{
+  margin-top: 16px;
+  text-align: center;
+  color: var(--color01);
+}
+
+.contact-paragraphy{
   font-size: 16px;
   color: var(--color03);
 }
