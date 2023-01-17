@@ -50,7 +50,8 @@ mat-toolbar {
 
 /*:::::About Me::::*/
 #about-me {
-  height: 768px;
+  height: auto;
+  min-height: 350px;
   background-color: var(--color02);
 }
 
@@ -96,7 +97,6 @@ mat-toolbar {
   background-color: var(--color01);
 }
 
-
 /*:::::Stack::::*/
 #stack {
   height: auto;
@@ -140,8 +140,8 @@ mat-toolbar {
   height: auto;
   min-height: 400px;
   background-color: var(--color02);
-
 }
+
 .portfolio-div{
   margin-left: 16px;
   margin-top: 16px;
@@ -208,14 +208,14 @@ mat-toolbar {
 .contact-icon{
   display: flex;
   direction: row;
-  margin-left: 42px;
+  margin-left: 32px;
   margin-top: 16px;
   margin-bottom: 16px;
   color: var(--color01);
 }
 
 .contact-text {
-  font-size: 32px;
+  font-size: 16px;
   font-weight: 200;
 }
 
