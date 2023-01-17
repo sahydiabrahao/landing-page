@@ -85,8 +85,19 @@ mat-toolbar {
   background-color: var(--color02);
 }
 .stack-div{
+  margin-left: 16px;
+  margin-top: 16px;
   text-align: center;
+  color: var(--color01);
 }
+
+.stack-title{
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
 .stack-paragraphy{
   font-size: 16px;
   color: var(--color03);
