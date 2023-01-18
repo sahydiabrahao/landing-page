@@ -2,7 +2,7 @@
 <section id="home" >
   <mat-toolbar>
     <span>PORTFÓLIO</span>
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <button (click)="onMenu()" mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
       <mat-icon>menu</mat-icon>
     </button>
   </mat-toolbar>
@@ -126,3 +126,17 @@
     <p class="footer-text regular">Sahydi Abrahão</p>
   </div>
 </div>
+
+
+<!--MENU MODAL-->
+<ng-container *ngIf="showModal">
+  <div class="modal">
+    <div class="btns-modal">
+      <button (click)="onMenuHome()" class="btn-modal bold" mat-raised-button >Início</button>
+      <button (click)="onMenuAboutMe()" class="btn-modal bold" mat-raised-button >Sobre</button>
+      <button (click)="onMenuStack()" class="btn-modal bold" mat-raised-button >Competências</button>
+      <button (click)="onMenuPortfolio()" class="btn-modal bold" mat-raised-button >Portfólio</button>
+      <button (click)="onMenuContact()" class="btn-modal bold" mat-raised-button >Contato</button>
+    </div>
+  </div>
+</ng-container>
