@@ -51,7 +51,7 @@ mat-toolbar {
 /*:::::About Me::::*/
 #about-me {
   height: auto;
-  min-height: 350px;
+  min-height: 280px;
   background-color: var(--color02);
 }
 
@@ -73,8 +73,12 @@ mat-toolbar {
   line-height: 1.2;
   font-weight: 500;
 }
+.about-me-btn{
+  text-align: center;
+}
 
 .about-me-paragraphy{
+  margin-top: 16px;
   text-align: justify;
   font-size: 16px;
   color: var(--color03);
@@ -85,8 +89,9 @@ mat-toolbar {
   color: var(--color01);
   background-color: transparent;
   width: 120px;
-  margin-top: 16px;
+  margin-top: 32px;
   margin-right: 16px;
+  margin-bottom: 16px;
   border: 1px;
   border-style: solid;
   border-color: var(--color01);
@@ -112,7 +117,8 @@ mat-toolbar {
 
 .stack-software{
   margin-left: 16px;
-  margin-top: 16px;
+  margin-top: 32px;
+  margin-bottom: 16px;
   text-align: center;
   color: var(--color01);
 }
@@ -164,8 +170,6 @@ mat-toolbar {
 
 .portfolio-project{
   margin-top: 16px;
-  margin-left: 16px;
-  margin-right: 16px;
   text-align: center;
   color: var(--color01);
 }
@@ -178,7 +182,7 @@ mat-toolbar {
 /*:::::Contact Me::::*/
 #contact {
   height: auto;
-  min-height: 400px;
+  min-height: 300px;
   background-image: url(/assets/images/call_background.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -209,10 +213,11 @@ mat-toolbar {
 .contact-icon{
   display: flex;
   direction: row;
-  margin-left: 32px;
-  margin-top: 16px;
+  margin-top: 32px;
   margin-bottom: 16px;
   color: var(--color01);
+  align-items: center;
+  margin-left: 42px;
 }
 
 .contact-text {
