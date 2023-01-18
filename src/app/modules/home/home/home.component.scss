@@ -1,5 +1,8 @@
 /*:::::Default::::*/
-*         { margin: 0px;}
+*{
+  margin: 0px;
+  scroll-behavior: smooth;
+}
 
 .regular  { font-family: RobotoCondensed-Regular; }
 .bold     { font-family: RobotoCondensed-Bold; }
@@ -19,7 +22,9 @@ mat-toolbar {
   font-family: RobotoCondensed-Regular;
   justify-content: space-between;
   color: var(--color01);
-  background-color: transparent;
+  background-color: #000000;
+  opacity: 0.3;
+  position: fixed;
 }
 
 .home-div{
